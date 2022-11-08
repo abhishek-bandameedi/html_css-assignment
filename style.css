@@ -1,0 +1,212 @@
+body{
+    background-color: #f0f8ff;
+    color: black;
+
+}
+/* header part */
+.mid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 20px auto;
+
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 12px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+    block-size: 30px;
+}
+.navbar li a{
+    color:#000000;
+    padding: 20px ;
+    text-decoration: none;
+    
+}
+.navbar li a:hover{
+    background-color: #000000;
+    border-radius: 25px;
+    border: 5px 5px 5px 5px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-right: 25px;
+}
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+/* index imag */
+
+.main{
+    position:relative;
+    font-family: Arial;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.quote{
+    position:absolute;
+    top:20px;
+    right:20x;
+    font-size: 15px;
+    color:#ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* contact page */
+
+#title{
+    color: #a52a2a;
+    text-decoration: solid;
+    font-size: 40px;
+    margin-left: 35px;
+}
+.contact{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.contact a img{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 30px;
+}
+.contact a img:hover{
+    transform: scale(2);
+}
+.contact p{
+    align-self:center;
+}
+.insta{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.linkedin{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.git{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.gmail{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#normal{
+    color: #0000ffff;
+}
+/* about page */
+.about-content{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+#name{
+    align-self:center;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #a52a2a;
+}
+.descryption{
+    margin-left:35px;
+    margin-right: 35px;
+}
+/* gallery page */
+.images{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    
+}
+.img img{
+    margin: 12px;
+    align-items: center;
+    border: 2px solid #ffffff;
+    width: 300px;
+    height: 300px;
+}
+
+/* footer work */
+.footer{
+    background-color:#748696;
+    
+    margin-bottom: 0%;
+    height: 125px;
+    text-align:justify;
+    color: #000000;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.footer-text{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000000;
+}
+.footer-text li a{
+    text-decoration:none;
+}
+.footer-text li a:hover{
+    text-decoration: underline;
+}
+.footer-pics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 30px;    
+}
+.follow-icons {
+    display:flex;
+    flex-direction:row;
+    font-size: 18px;
+}
+.follow-icons a img{
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    text-decoration: none;
+}
