@@ -8,7 +8,7 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 60%;
+    width: 90%;
     margin: 20px auto;
 
 }
@@ -68,20 +68,11 @@ body{
 
 .main{
     position:relative;
+    /* display: block; */
     font-family: Arial;
     margin-left: 35px;
     margin-right: 35px;
 }
-.quote{
-    position:absolute;
-    top:20px;
-    right:20x;
-    font-size: 15px;
-    color:#ffffff;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
 
 /* contact page */
 
@@ -109,22 +100,7 @@ body{
 .contact p{
     align-self:center;
 }
-.insta{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.linkedin{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.git{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.gmail{
+.insta, .linkedin, .git, .gmail{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -153,20 +129,22 @@ body{
     display:flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    flex-direction: row;
-
-    
+    flex-direction: row;    
 }
 .img img{
     margin: 12px;
     align-items: center;
     border: 2px solid #ffffff;
-    width: 300px;
-    height: 300px;
+    width: 225px;
+    height: 225px;
+    border-radius: 20px;
+}
+.img img:hover{
+    transform:scale(1.5)
 }
 
 /* footer work */
-.footer{
+/* .footer{
     background-color:#748696;
     
     margin-bottom: 0%;
@@ -185,6 +163,10 @@ body{
     flex-direction: column;
     align-items: center;
     color: #000000;
+}
+.footer-text li{
+    list-style-type: none;
+    padding: 3px;
 }
 .footer-text li a{
     text-decoration:none;
@@ -209,4 +191,15 @@ body{
     height: 15px;
     padding: 5px;
     text-decoration: none;
+} */
+iframe{
+    border: none;
+}
+@media screen and (max-width:600px) {
+    div.footer{
+        font-size:smaller;
+    }
+    div.header{
+        padding: 10px;
+    }
 }
