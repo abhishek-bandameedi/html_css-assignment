@@ -1,0 +1,70 @@
+[
+    {
+        "name":"Crusty Garlic Focaccia with Melted Cheese",
+        "price":105.00,
+        "label":".Rs",
+        "id":"item1",
+        "course":"Fast Food"
+    },
+    
+    {
+        "name":"French Fries",
+        "label":".Rs",
+        "price":105.00,
+        "id":"item2",
+        "course":"snacks"
+    },
+
+    {
+        "name":"Home Country Fries with Hearbs & Chilli Flakes",
+        "label":".Rs",
+        "price":105.00,
+        "id":"item3",
+        "course":"Home made"
+
+    },
+
+    {
+        "name":"French Fries with Cheese & Chilli Flakes",
+        "label":".Rs",
+        "price":135.00,
+        "id":"item4",
+        "course":"snacks"
+
+    },
+    {
+        "name":"Pizza",
+        "price":110.00,
+        "label":".Rs",
+        "id":"item5",
+        "course":"Fast Food"
+    },
+    {
+        "name":"Burger",
+        "price":110.00,
+        "label":".Rs",
+        "id":"item6",
+        "course":"Fast Food"
+    },
+    {
+        "name":"Burger",
+        "price":110.00,
+        "label":".Rs",
+        "id":"item6",
+        "course":"Fast Food"
+    },
+    {
+        "name":"Burger",
+        "price":110.00,
+        "label":".Rs",
+        "id":"item6",
+        "course":"Fast Food"
+    },
+    {
+        "name":"Burger",
+        "price":110.00,
+        "label":".Rs",
+        "id":"item6",
+        "course":"Fast Food"
+    }
+]
