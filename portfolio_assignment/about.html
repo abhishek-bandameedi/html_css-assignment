@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en-US">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="keywords" content="gallery,art">
+        <meta name="description" content="nature is the best healer."/>
+        <meta name="author" content="Abhishek"/>
+        <title>about page</title>
+        <link href="style.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <iframe scrolling="no" src="nav-bar.html" width="100%" height="100%"></iframe>
+            </div>
+        </header>
+        <div class="about-content">
+            <button id="btn" title="click here to know about me">B Abhishek Goud</button>
+            <div class="description" id="description">
+                
+                <p>
+                    I am B Abhishek Goud. I am a student of computer science branch from Sreenidhi Institute of Science and Technology.
+                    I'm very enthusiastic towards clicking pictures of nature.
+                </p>
+                <p>
+                    Apart from photography I am a dev intern at Zemoso. I am good at technical subjects like database management systems, Computer Networks, Operating systems.
+                    I have enough knowledge on python, sql. I always like to solve puzzles, riddles and psuedo codes.
+                </p>
+                <p>
+                    I like to explore new things. I have worked on a project  related to disease pridiction in machine learning domain.
+                    I would like to work on new domains and learn new things. I'm diciplined and hard working candidate.
+                </p>
+
+            </div>
+        </div>
+        <script>
+            document.getElementById("btn").onclick=myFunction;
+            function myFunction(){
+                var x=document.getElementById("description");
+                if(x.style.display==="none"){
+                    x.style.display="block";
+                }
+                else{
+                    x.style.display="none";
+                }
+            }
+        </script>
+    </body>
+</html>

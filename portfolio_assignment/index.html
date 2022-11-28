@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en-US">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width ,initial-scale=1.0"/>
+        <meta name="keywords" content="gallery,art">
+        <meta name="description" content="nature is the best healer."/>
+        <meta name="author" content="Abhishek"/>
+        <title>Home page</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <iframe src="nav-bar.html" scrolling="no" width="100%" height="100%" title="nav-bar"></iframe>
+            </div>
+        </header>
+        <div id="greet">
+            <button onclick="greet()">Enter your name!</button>
+            <p id="welcome"></p>
+        </div>
+        <div class="main">
+            <img id="ind-img" src="images\photography.jpg" alt="backgroung image" style="width:100%;"/>
+        </div>
+        <script>
+            function greet(){
+                let text;
+                let person=prompt("Enter your Name:");
+                if(person==null||person==""){
+                    text="Enter your name";
+                }
+                else{
+                    text="Hello "+person+", Welcome to my webpage";
+                }
+                document.getElementById("welcome").innerHTML=text;
+            }
+        </script>
+    </body>
+</html>
